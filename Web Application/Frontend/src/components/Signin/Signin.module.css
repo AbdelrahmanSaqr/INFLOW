@@ -1,0 +1,351 @@
+.signin{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.leftpage{
+    margin-top: 5%;
+    margin-left: 25%;
+
+    /* margin: 3% 0px 0px 28% ;
+    width : 43%; */
+}
+.forms{
+    position: relative;
+    left:5%;
+}
+@media (max-width:899px) {
+    .forms{
+        position: relative;
+        left:0%;
+    }
+}
+
+
+.login h5{
+    font-size: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 50;
+    color: #152235;
+    margin-bottom: 15px;
+}
+
+.login small{
+    /* position: relative;
+    top:-40px; */
+    margin-top: -20px;
+    font-size: 20px;
+    color: #616161;
+    display: inline-block;
+}
+.login span{
+    display: inline-block;
+    color: #4484FF;
+    margin-bottom: 20px;
+}
+
+.email{
+    /* margin: -30px 0px 0px 0px ; */
+    display: inline-block;
+}
+
+.email.invalid input {
+    border-color: red;
+    background: white;
+  }
+
+.email h4 {
+    font-family: 'Inter' , sans-serif;
+    font: bold;
+    font-size: 17px ;
+    color: black;
+}
+
+.emailcontent{
+    display: inline-block;
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 5px;
+    position: relative;
+    height: 47px;
+    width: 353px;
+}
+
+.emailcontent:focus {
+    background-color: white;
+}
+/* @media (max-width:899px) {
+    .emailcontent{
+        width: 100%;
+    }
+} */
+@media (max-width:460px) {
+    .emailcontent{
+        width: 100%;
+    }
+}
+
+.emailcontent:-webkit-autofill,
+.emailcontent:-webkit-autofill:focus,
+.emailcontent:-webkit-autofill:hover,
+.emailcontent:-webkit-autofill:active {
+  -webkit-box-shadow: inset 0 0 0 50px #ffffff;
+}
+/* Note that the ::-webkit-contacts-auto-fill-button pseudo-element 
+selector is specific to webkit browsers, so you may need to use other vendor prefixes for other browsers */
+
+/* .error h1{
+    text-align: center;
+    padding: 5px 0;
+    display: inline-block;
+    background-color: #D05050;
+    color: white;
+    border-radius: 12px;
+    width: 250px;
+    height: 63px;
+} */
+.error{
+    opacity: 90%;
+}
+.errormessage{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 70px;
+    /* bgcolor: background.paper; */
+    border: 1px solid #000;
+    /* boxShadow: 24;
+    p: 4;
+    borderRadius: '20px'; */
+    border-radius: 20px;
+    border: solid 2px red;
+    background-color: red;
+}
+.errormessage h1{
+    margin-top: 12px;
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    font-family: 'Inter' , sans-serif;
+    font: bold;
+}
+
+.password{
+    margin: 20px 0px 0px 0px;
+    display: inline-block;
+}
+
+.password h4{
+    font-family: 'Inter' , sans-serif;
+    font: bold;
+    font-size: 17px ;
+    color: black;
+}
+
+.passwordcontent{
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 5px;
+    position: relative;
+    height: 47px;
+    width: 353px;
+}
+@media (max-width:460px) {
+    .passwordcontent{
+        width: 100%;
+    }
+}
+
+.remembermeforgetpassword{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.forgetpasswordbtn{
+    background-color: white;
+    color: #4484FF;
+    border: white;
+    border-radius: 20px;
+}
+@media (max-width:599px) {
+    .forgetpasswordbtn{
+        width: 100%;
+        margin-left: 15px;
+    }
+}
+.loginbtn{
+    font-family: 'Inter' , sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #4484FF;
+    border-color: #4484FF;
+    color: white;
+    border-style: solid;
+    border-radius: 12px;
+    height: 50px ;
+    width: 100%;
+}
+@media (max-width:460px) {
+    .loginbtn{
+        width:100%;
+    }
+    
+}
+
+.loginbtn:disabled,
+.loginbtn:focus:disabled,
+.loginbtn:hover:disabled,
+.loginbtn:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+
+.createaccount{
+    width: 353px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+@media (max-width:460px) {
+    .createaccount{
+        width: 183px;
+    }
+    
+}
+.createaccount p{
+    font-size: 16px;
+}
+.createonebtn{
+    background-color: white;
+    border: none;
+    color: #4484FF;
+}
+
+.loginwith:before{
+    content:" ";
+  display: block;
+  height: 2px;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #BBBBBB;
+}
+.loginwith{
+    width: 353px;
+    font-size: 18px;
+    color: #616161;
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+    text-align: center;
+}
+.loginwith:after{
+    content:" ";
+    height: 2px;
+    width: 30%;
+    background: #BBBBBB;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.googlebtn{
+    position: relative;
+    top: 50%;
+    left:2%;
+    text-align: center;
+    border-style: solid;
+    border-radius: 12px;
+    height: 35px ;
+    width: 483px ;
+    border-color: #C02727;
+    background-color: #C02727;
+}
+.googlebtn span{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+
+.google{
+    color:white;
+    background-color: #C02727;
+}
+
+
+.rightpage {
+    margin: 10% 0; 
+
+  }
+
+@media (max-width:1075px) {
+    .rightpage {
+        margin-left: -20%;
+    }
+}
+@media (max-width:899px) {
+    .rightpage {
+        margin-left:20%;
+    }
+}
+.rightpage h1{
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    color: #4484FF;
+    font-size: 42px;
+}
+.rightpage small{
+    position: relative;
+    top:-50%;
+    margin-left: 1%;
+    font-size: 24px;
+    color: #616161;
+    line-height: 20px;
+}
+.rightpage span{
+    font: bold;
+    font-size: 50px;
+    color: #4484FF;
+}
+.rightpage img{
+    position: relative;
+    margin: 0% 0% 0% -8%;
+    width: 380px;
+    height: 258px;
+}
+@media (max-width:460px) {
+    .rightpage h1{
+        font-size: 32px;
+    }
+    .rightpage small{
+        position: relative;
+        top:-50%;
+        font-size: 18px;
+    }
+    .rightpage img{
+        margin: 0% 0% 0% -15%;
+        width: 280px;
+        height: 208px;
+    }
+}
+@media (max-width:333px){
+    .rightpage h1{
+        font-size: 27px;
+    }
+    .rightpage small{
+        position: relative;
+        top:-50%;
+        font-size: 15px;
+    }
+    .rightpage img{
+        margin: 0% 0% 0% -15%;
+        width: 250px;
+        height: 178px;
+    }
+}

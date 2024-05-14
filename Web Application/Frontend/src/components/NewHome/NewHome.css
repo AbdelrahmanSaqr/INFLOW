@@ -1,0 +1,119 @@
+.home{
+    height: 39.05rem;
+    min-height: 100%;
+    background: url("https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?w=826&t=st=1679698591~exp=1679699191~hmac=86602ab7461a3796f90ad47aea47913731caaa902fa86152608c84ea4827d042");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 850px) and (max-width:912px) {
+    .home{
+        min-height: 100%;
+    }
+}
+@media (min-width: 750px) and (max-width:850px) {
+    .home{
+        min-height: 100%;
+    }
+}
+@media (min-width: 375px) and (max-width:700px) {
+    .home{
+        min-height: 100%;
+    }
+}
+
+@media (max-width:375px) {
+    .home{
+        min-height: 100%;
+    }
+}
+
+.home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+}
+
+.leftbtn{
+    border: none;
+    border-radius: 20px;
+    height: 60px;
+    width: 70px;
+    background: linear-gradient(105.96deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.leftbtn svg{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.rightbtn{
+    border: none;
+    border-radius: 20px;
+    height: 60px;
+    width: 70px;
+    background: linear-gradient(105.96deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+.rightbtn svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width:1000px) {
+    .leftbtn{
+        height: 40px;
+        width: 50px;
+    }
+    .leftbtn svg{
+        height: 20px;
+        width: 50px;
+    }
+    .rightbtn{
+        height: 40px;
+        width: 50px;
+    }
+    .rightbtn svg{
+        height: 20px;
+        width: 50px;
+    }
+}
+@media (max-width:600px) {
+    .leftbtn{
+        left: 8%;
+    }
+    .rightbtn{
+        left: 92%;
+    }
+}
+
+.homecontent{
+    height: 80%;
+    border-radius: 20px;
+    margin-top: 3%;
+    width: 73%;
+    background: linear-gradient(105.96deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

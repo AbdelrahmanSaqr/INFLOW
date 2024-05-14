@@ -1,0 +1,197 @@
+.header{
+    filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(20px);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: transparent;
+     /* position: sticky; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width:100%;
+} 
+.logo{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    position: relative;
+    left:5%;
+    border-radius: 12px;
+    border: none;
+    background-color: transparent;
+}
+.logo h5{
+    color: #464646;
+    position: relative;
+    top: 10px;
+    margin-left: -12px;
+    display: inline-block;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+@media (max-width:899px){
+    .logo h5{
+        position: relative;
+        top: 5px;
+        margin-left: 0px;
+    }
+}
+.navbarbtns {
+    background: transparent;
+    border: none;
+    /* background-color: white; */
+    /* border-style: solid; */
+    border-radius: 15px;
+    border-color: white;
+    position: relative;
+    left:8%;
+}
+
+
+@media (max-width:1393px) {
+    .navbarbtns{
+        margin-left: 50px;
+    }
+    .logo{
+        margin-left: -50px;
+    }
+    /* .logo h5{
+        font-size: 26px;
+    } */
+    
+}
+
+@media (max-width:1293px) {
+    .navbarbtns{
+        margin-left: 40px;
+    }
+    
+}
+@media (max-width: 1232px) {
+    .rightnav{
+        margin-left: -30%;
+        
+    }
+}
+@media (max-width: 1216px) {
+    .navbarbtns{
+        margin-left: 3.5%;
+    }
+}
+@media (max-width: 1145px) {
+    .rightnav{
+        margin-left: -50%;
+        
+    }
+}
+@media (max-width: 1116px) {
+    .navbarbtns{
+        margin-left: 1%;
+    }
+}
+@media (max-width: 1022px) {
+    .navbarbtns{
+        margin-left: 0.5%;
+    }
+}
+@media (max-width: 1016px) {
+    .navbarbtns{
+        margin-left: 0%;
+    }
+}
+
+@media (min-width:900px) and (max-width: 979px) {
+    .navbarbtns{
+        margin-left: -5px;
+    }
+    .logo{
+        position: relative;
+        left:  2%;
+    }
+    /* .logo h5{
+        font-size: 28px;
+    } */
+    .loginbtn{
+        margin-left: -25px;
+    }
+}
+
+
+
+.navbarbtns span{
+    margin-left: 0px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+    color: #464646;
+}
+
+.rightnav{
+    background: transparent;
+    border: none;
+    /* position: relative; */
+    /* left: 65%; */
+    float: right;
+    
+}
+
+.tasketestbtn{
+    border-style: solid;
+    border-radius: 15px;
+    width: 103px;
+    height: 46px;
+    border-color: #4484FF;
+    background-color: #4484FF;
+    color: white;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.languagebtn span{
+    margin-right: 25px;
+    font-size: 17px;
+}
+
+
+.profiledropdown{
+    margin-top: -10px;
+}
+
+.profiledropdown>a::after {
+    color: #111B2B;
+}
+
+.profileimg{
+    height:40px;
+}
+.loginbtn{
+    background-color: white;
+    color: #4484FF;
+    margin-top: -10px;
+    border-radius: 10px;
+    height: 35px ;
+    width: 90px ;
+    margin-right: 15px;
+    /* border: none; */
+    border-color: #4484FF;
+}
+.createaccbtn{
+    background-color: #4484FF;
+    color: white;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: none;
+    height: 35px ;
+    width: 120px ;
+}

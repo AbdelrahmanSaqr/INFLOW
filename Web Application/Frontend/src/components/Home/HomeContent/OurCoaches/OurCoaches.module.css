@@ -1,0 +1,112 @@
+.ourcoaches{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px ;
+}
+
+.ourcoaches h1 {
+    margin-left: 18%;
+    font-family: 'Dosis' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.content{
+    margin-top: 20px;
+    margin-left: 8%;
+}
+.content img{
+    margin-bottom: 20px;
+    border-radius: 50px;
+    height: 160px;
+    width:180px;
+    animation: slideInFromLeft 2s ease-out;
+    transform: rotate(0deg);
+}
+
+@keyframes slideInFromLeft {
+    /* 0% {
+      transform: translateX(-280%) rotate(-65deg) ;
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+    } */
+}
+
+
+.content h2{
+    margin-top: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    animation-name: fade-in;
+    animation-duration: 4s;
+}
+
+@keyframes fade-in {
+    /* from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    } */
+}
+
+.content p{
+    margin-top: 20px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.seemore {
+    border: none;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.seemorebtn{
+    border: none;
+    background-color: transparent;
+    margin-top: -1px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+} 
+
+.ourcoachesbtn{
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50px;
+    width: 270px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+}
+
+.ourcoachesbtn:hover{
+    background-color: white;
+    color: #4484FF;
+}

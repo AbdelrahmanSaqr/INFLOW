@@ -1,0 +1,198 @@
+.pricing{
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.pricingContent h1{
+    color: #343434;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.wholepricingbtn{
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+    border: none;
+    width: 270px;
+    /* height: 400px; */
+    background-color: white;
+    transition: all 0.5s;
+    /* transition: transform 0.5s ease; */
+}
+.wholepricingbtn2{
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+    border: none;
+    width: 270px;
+    /* height: 400px; */
+    background-color: white;
+    transition: all 0.5s;
+}
+.wholepricingbtn3{
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+    border: none;
+    width: 270px;
+    /* height: 400px; */
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.wholepricingbtn:hover{
+    position: relative;
+    transform: translateY(-30px);
+}
+.wholepricingbtn2:hover{
+    position: relative;
+    transform: translateY(-30px);
+}
+.wholepricingbtn3:hover{
+    position: relative;
+    transform: translateY(-30px);
+}
+
+.pricingbtn{
+    border: none;
+    width: 90%;
+    background-color: white;
+    /* height: 350px; */
+}
+
+.pricingbtn h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2D3748;
+    margin-top: 20px;
+    margin-left: -80px;
+}
+
+.pricingbtn svg{
+    margin-top: 20px;
+    margin-left: 50px
+}
+
+.pricingbtn h1{
+    margin-top: 12px;
+    font-family: 'Roboto' ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 59px;
+    color: #343434;
+}
+.pricingbtn p {
+    margin-top: 12px;
+    width: 100%;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #4A5568;
+}
+.pricingbtn ul{
+    
+    margin-top: 12px;
+    /* margin-bottom: 12px; */
+    margin-bottom: 140px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li::before {
+    content: "•"; /* Unicode character for a bullet point */
+    color: #CBD5E0; /* Change the color to red */
+    margin-right: 0px; /* Add some space between the bullet point and the text */
+    display: inline-block;
+    width: 2em; /* Change the width of the bullet point */
+}
+ul li::before {
+    font-size: 20px; /* adjust the size as needed */
+}
+.pricingbtn ul li {
+    margin-top: 12px;
+    float: left;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #343434;
+}
+
+.getStartedBtn{
+    /* margin-top: 30px; */
+    margin-left: -6px;
+    width: 270px;
+    height: 55px;
+    border: none;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #2D3748;
+    background: #EDF2F7;
+}
+.getStartedBtn2{
+    /* margin-top: 30px; */
+    margin-left: -6px;
+    width: 270px;
+    height: 50px;
+    border: none;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #2D3748;
+    background: #EDF2F7;
+}
+.getStartedBtn3{
+    /* margin-top: 30px; */
+    margin-left: -6px;
+    width: 270px;
+    height: 50px;
+    border: none;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #2D3748;
+    background: #EDF2F7;
+}
+.pricingbtn:hover ~ .getStartedBtn{
+    color: white;
+    background: #4484FF ;
+}
+.getStartedBtn:hover{
+    color: white;
+    background: #4484FF ;
+}
+.pricingbtn:hover ~ .getStartedBtn2{
+    color: white;
+    background: #4484FF ;
+}
+.getStartedBtn2:hover{
+    color: white;
+    background: #4484FF ;
+}
+.pricingbtn:hover ~ .getStartedBtn3{
+    color: white;
+    background: #4484FF ;
+}
+.getStartedBtn3:hover{
+    color: white;
+    background: #4484FF ;
+}

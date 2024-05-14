@@ -1,0 +1,114 @@
+.pincode{
+    margin-top: 1%;
+    /* margin-left: 38%; */
+    margin-bottom: 1%;
+}
+
+.pincode p{
+    margin-left: 30px;
+    width: 300px;
+    height: 40px;
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    color: #111B2B;
+}
+
+.pincode img{
+    margin-left: -15px;
+    margin-bottom: 20px;
+    height: 230px;
+    width: 400px;
+}
+
+
+.pin{
+    margin-left: 40px;
+}
+
+
+.pincontent{
+    margin-left: 22px;
+    border: 1px solid rgb(211, 207, 207);
+    position: relative;
+    height: 40px;
+    width: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+}
+
+.submitbtn{
+    margin-top: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #4484FF;
+    border-color: #4484FF;
+    color: white;
+    border-style: solid;
+    border-radius: 12px;
+    height: 40px ;
+    width: 320px;
+    margin-left: 20px;
+}
+
+.resendcodebtn{
+    margin-left: 32%;
+    margin-top: 15px;
+
+    width: 120px;
+    height: 22px;
+
+    border-radius: 20px;
+    border: white;
+
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+
+    background-color: white;
+    color: #4484FF;
+}
+.success{
+    opacity: 100%;
+}
+.successmessage{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 200px;
+    /* bgcolor: background.paper; */
+    /* border: 1px solid #000; */
+    /* boxShadow: 24;
+    p: 4;
+    borderRadius: '20px'; */
+    border-radius: 20px;
+    border: solid 2px white;
+    background-color: white;
+}
+.successmessage svg{
+    position: relative;
+    top: 40px;
+}
+.successmessage h1{
+    position: relative;
+    top: 50px;
+    margin-top: 12px;
+    text-align: center;
+    color:#4484FF;
+    font-size: 18px;
+    font-family: 'Inter' , sans-serif;
+    font: bold;
+}
+@media (max-width:600px){
+    .successmessage{
+        width: 80%;
+    }
+}

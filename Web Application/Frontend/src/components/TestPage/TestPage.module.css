@@ -1,0 +1,121 @@
+.logodisplay{   
+  margin-top: 3%;
+}
+
+.header{
+  border: none;
+  background-color:transparent ;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.header h1{
+  color: #33658A;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration-line: underline;
+}
+.header svg{
+  margin-left: 5px;
+}
+.content{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.textcontainer{
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #555555;
+  width: 200px;
+}
+.squarebutton0 {
+  margin-left: -10px;
+  background-color: white;
+  border: none;
+  transition: all 0.5s;
+}
+.squarebutton0 img{
+  width: 100%;
+  height: 150px;
+  border: none;
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.squarebutton0:hover{
+  transform:scale(1.1);
+}
+
+.squarebutton1 {
+  width: 168px;
+  margin-left: -5px;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+.squarebutton1 img{
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+  transition: all 0.5s;
+}
+.squarebutton1:hover{
+  transform:scale(1.1);
+}
+
+.squarebutton2 {
+  width: 168px;
+  margin-left: -5px;
+  background-color: transparent;
+  transition: all 0.5s;
+  border: none;
+}
+.squarebutton2 img{
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+  transition: all 0.5s;
+}
+.squarebutton2:hover{
+  transform:scale(1.1);
+}
+.squarebutton3 {
+  margin-left: -5px;
+  background-color: transparent;
+  border: none;
+  transition: all 0.5s;
+}
+.squarebutton3 img{
+  width: 100%;
+  height: 150px;
+  border: none;
+  display: inline-block;
+  transition: all 0.5s;
+}
+.squarebutton3:hover{
+  transform:scale(1.1);
+}
+.squarebutton4 {
+  width: 168px;
+  margin-left: -5px;
+  background-color: transparent;
+  border: none;
+  transition: all 0.5s;
+
+}
+.squarebutton4 img{
+  width: 100%;
+  height: 150px;
+  border: none;
+  display: inline-block;
+  transition: all 0.5s;
+}
+.squarebutton4:hover{
+  transform:scale(1.1);
+}

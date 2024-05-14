@@ -1,0 +1,305 @@
+.upperpage {
+    aspect-ratio: 5/1.4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/free-photo/woman-with-hands-together-talking-with-counselor_23-2148759093.jpg?w=740&t=st=1683067745~exp=1683068345~hmac=c8a3e668fafd23d3d2bfe1b70ffb5e9b7c1dfebbfd02a62eace4764c026d58ff');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: brightness(0.4);
+}
+
+.upperpage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    mix-blend-mode: multiply;
+}
+.upperpage h1{
+    /* filter: brightness(1.75); */
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    mix-blend-mode:luminosity;
+}
+
+.upperpage p{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    mix-blend-mode:luminosity;
+}
+.searchAndSort{
+    border-radius: 15px;
+    /* border: 2px solid; */
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+}
+.searchAndSort p{
+    font-family: 'Inter' ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14.4px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+
+}
+@media (max-width:899px) {
+  .searchAndSort{
+        margin-left: 6%;
+        margin-right: 5%;
+        width: 750;
+    /* margin-top: 10%; */
+  }
+}
+
+@media (max-width:899px) {
+    .sort{
+        position: relative;
+        left: 12%;
+        bottom: 10px;
+      /* margin-top: 10%; */
+    }
+}
+
+.cardBtn{
+    position: relative;
+    top: -40px;
+    width:78%;
+}
+@media (max-width:400px) {
+    .cardBtn{
+        position: relative;
+        left:-10px;
+        width:78%;
+    }
+}
+
+.viewProfileBtn{
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(68, 132, 255, 0.6);
+    background-color: white ;
+    border: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+    transition: all 0.5s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.viewProfileBtn:hover{
+    color:white;
+    /* transform:scale(1.1); */
+    border: #4484FF;
+    background-color: #4484FF;
+}
+.booknowBtn{
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(68, 132, 255, 0.6);
+    border: rgba(68, 132, 255, 0.6);
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+    transition: all 0.5s;
+}
+
+.booknowBtn:hover{
+    transform:scale(1.1);
+    border: #4484FF;
+    background-color: #4484FF;
+}
+
+.coaches{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+    /* border: #4484FF; */
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+/* @media (max-width:1150px) {
+    .coaches{
+        width: 300px;
+    }
+}
+@media (max-width:970px) {
+    .coaches{
+        width: 278px;
+    }
+}
+@media (max-width:899px) {
+    .coaches{
+        
+    }
+} */
+.coaches h5{
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    color:rgba(52, 52, 52, 1);
+
+}
+@media (max-width:350px) {
+    .coaches h5{
+        position: relative;
+        left: -10px;
+    }
+} 
+@media (min-width:899px) and (max-width:966px){
+    .coaches h5{
+        font-size: 14px;
+    }
+}
+.coaches h6{
+    font-family: 'Inter' ,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    color:rgba(105, 157, 255, 1);
+}
+.coaches p{
+    margin-top: -10px;
+    font-family: 'Inter' ,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 80%;
+}
+.pricing{
+    margin-top: 20px;
+}
+@media (max-width:460px) {
+    .pricing{
+        margin-bottom: 50px;
+    }
+}
+
+.timebtn{
+
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background: rgba(68, 132, 255, 0.6);
+    border: #4484FF;
+    border-radius: 16px;
+    width: 120px;
+    height: 45px;
+    transition: all 0.5s;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+
+.daysbtn{
+
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background: rgba(68, 132, 255, 0.6);
+    border: #4484FF;
+    border-radius: 15px;
+    width: 95px;
+    height: 50px;
+    transition: all 0.5s;
+    margin-left: 5px;
+
+
+}
+.daysbtn:hover{
+    transform: scale(1.05);
+    background-color: #4484FF;
+}
+.timebtn:hover{
+    transform: scale(1.05);
+    background-color: #4484FF;
+}
+
+.clicked {
+    background-color: #4484FF;
+    transform: scale(1.05);
+  }
+
+
+/* //1080 */
+@media (min-width:899px) and (max-width:1080px) {
+    .pricing{
+        margin-top: 12px;
+    }
+}
+
+@media (max-width:899px) {
+    .coaches{
+        width: 100%;
+    }
+}
+
+.booking{
+    opacity: 90%;
+}
+
+.payment{
+    background-color: white;
+    color: #4484FF;
+    border: white;
+    border-radius: 20px;
+    text-decoration-line: underline;
+    /* margin-left: 5%; */
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 30px;
+    width:50%;
+}
+.payment:disabled,
+.payment:focus:disabled,
+.payment:hover:disabled,
+.payment:active:disabled {
+  color: #666666;
+  cursor: not-allowed;
+}
+.contactusBtn{
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+    color: white;
+    background-color: rgba(68, 132, 255, 0.6);
+    border: rgba(68, 132, 255, 0.6);
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    transition: all 0.5s;
+}
+.contactusBtn:hover{
+    transform:scale(1.1);
+    border: #4484FF;
+    background-color: #4484FF;
+}

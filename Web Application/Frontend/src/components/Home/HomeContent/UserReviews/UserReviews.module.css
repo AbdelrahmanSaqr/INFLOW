@@ -1,0 +1,79 @@
+.header {
+    margin-top: 3%;
+    margin-left: 9%;
+}
+
+.header h1{
+    font-family: 'Dosis' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.header svg{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.content{
+    margin-top: 5%;
+    margin-left: 14.5%;
+    width: 70%;
+}
+
+.contentdescription{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.contentdescription h2{
+    margin-top: 30px;
+    font-family: 'Dosis' , sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    color: white;
+}
+
+.contentdescription img{
+    display: inline-block;
+    border-radius: 50px;
+    height: 70px;
+    width:70px;
+}
+
+.contentdescription p{
+    width: 92%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.userreviewsbtn{
+    margin-top: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50px;
+    width: 270px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+}
+
+.userreviewsbtn:hover{
+    background-color: white;
+    color: #4484FF;
+}

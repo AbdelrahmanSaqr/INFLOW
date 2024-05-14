@@ -1,0 +1,238 @@
+.howitworks{
+  margin-top: 60px ;
+  margin-left: 5% ;
+  margin-bottom: 30px ;
+}
+.howitworks h1{
+  margin-left: 31%;
+  font-family: 'Dosis',sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+.content{
+  margin-top: 50px ;
+}
+
+.firstimage{
+  display: block;
+  margin: 0 auto;
+  animation: slideInFromLeft 2s ease-out;
+  transform: rotate(0deg);
+}
+
+@keyframes slideInFromLeft {
+  /* 0% {
+    transform: translateX(-280%) rotate(-15deg) ;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  } */
+}
+
+
+.secondimage{
+  display: block;
+  margin: 0 auto;
+  animation: slideInFromTop 2s ease-out;
+}
+
+@keyframes slideInFromTop {
+  /* 0% {
+    transform: translateY(-400%);
+  }
+  100% {
+    transform: translateY(0);
+  } */
+}
+
+.thirdimage{
+  display: block;
+  margin: 0 auto;
+  animation: slideInFromRight 2s ease-out;
+  transform: rotate(0deg);
+}
+@keyframes slideInFromRight {
+  /* 0% {
+    transform: translateX(260%) rotate(15deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  } */
+}
+
+.content h2 {
+  margin-left: 7%;
+  margin-top: 30px ;
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.content p {
+  margin-left: 7%;
+  margin-top: 20px ;
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  animation-name: fade-in;
+  animation-duration: 4s;
+}
+
+@keyframes fade-in {
+  /* from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  } */
+}
+
+.content button{
+  margin-top: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 50px;
+  width: 270px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFFFFF;
+  transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+}
+
+.content button:hover{
+  background-color: white;
+  color: #4484FF;
+}
+/* .howitworks{
+    margin-top: 60px ;
+    margin-left: 5% ;
+    margin-bottom: 30px ;
+}
+.howitworks h1{
+    margin-left: 31%;
+    font-family: 'Dosis',sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.content{
+    margin-top: 50px ;
+}
+
+.firstimage{
+    display: block;
+    margin: 0 auto;
+    animation: slideInFromLeft 2s ease-out;
+    transform: rotate(0deg);
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-280%) rotate(-15deg) ;
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+    }
+}
+
+
+.secondimage{
+    display: block;
+    margin: 0 auto;
+    animation: slideInFromTop 2s ease-out;
+}
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-400%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+.thirdimage{
+    display: block;
+    margin: 0 auto;
+    animation: slideInFromRight 2s ease-out;
+    transform: rotate(0deg);
+}
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(260%) rotate(15deg);
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+    }
+}
+
+.content h2 {
+    margin-left: 7%;
+    margin-top: 30px ;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.content p {
+    margin-left: 7%;
+    margin-top: 20px ;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    animation-name: fade-in;
+    animation-duration: 4s;
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.content button{
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50px;
+    width: 270px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+}
+
+.content button:hover{
+    background-color: white;
+    color: #4484FF;
+} */

@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fb5fcf0.css",
+    "main.js": "/static/js/main.afd1aff4.js",
+    "static/media/professionalphoto3.jpg": "/static/media/professionalphoto3.8fe21104240bf0df6781.jpg",
+    "static/media/mind.jpg": "/static/media/mind.3813969b39240f8935c8.jpg",
+    "static/media/image 102.png": "/static/media/image 102.cae5a1e8ccb8980c5beb.png",
+    "static/media/head.jpg": "/static/media/head.cdda5d02b8f6ff7f879c.jpg",
+    "static/media/contactus.jpg": "/static/media/contactus.7a9618aa60e649439340.jpg",
+    "static/media/offline.png": "/static/media/offline.c87eac29aa2493248fd2.png",
+    "static/media/laptop.png": "/static/media/laptop.34023fad57287be74b6c.png",
+    "static/media/professionalphoto.jpg": "/static/media/professionalphoto.b4effe912d47147947de.jpg",
+    "static/media/online.png": "/static/media/online.def4b12c630fa2e5c5ca.png",
+    "static/media/photo3.png": "/static/media/photo3.c0c242048ec68f3cce3f.png",
+    "static/media/professionalphoto2.jpg": "/static/media/professionalphoto2.910ab3949d33aaf33af7.jpg",
+    "static/media/needs.jpeg": "/static/media/needs.65852baed57f6c3f16db.jpeg",
+    "static/media/photo2.jpg": "/static/media/photo2.ad34338b982fe6e6b317.jpg",
+    "static/media/photo1.png": "/static/media/photo1.0843d17bb3cac5fee8d8.png",
+    "static/media/photo4.png": "/static/media/photo4.c092ee99987ff55a3c54.png",
+    "static/media/lap.png": "/static/media/lap.297e1f5601849aca141b.png",
+    "static/media/Logo.jpg": "/static/media/Logo.796c86deb47f6f263cde.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/thirdcolor.PNG": "/static/media/thirdcolor.eb41b22b05b42a5f2136.PNG",
+    "static/media/forthcolor.PNG": "/static/media/forthcolor.68602b2796c9023b8a31.PNG",
+    "static/media/secondcolor.PNG": "/static/media/secondcolor.52aa715a1c27d9fa0500.PNG",
+    "index.html": "/index.html",
+    "main.2fb5fcf0.css.map": "/static/css/main.2fb5fcf0.css.map",
+    "main.afd1aff4.js.map": "/static/js/main.afd1aff4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fb5fcf0.css",
+    "static/js/main.afd1aff4.js"
+  ]
+}

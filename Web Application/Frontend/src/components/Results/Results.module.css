@@ -1,0 +1,140 @@
+.results{
+    margin-top: 120px;
+    /* margin-left: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    color: #343434;
+}
+.header h2{
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    color: #343434;
+}
+
+.continuebtn{
+    justify-content: center;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #4484FF;
+    border-color: #4484FF;
+    color: white;
+    border-style: solid;
+    border-radius: 12px;
+    height: 54px ;
+    width: 200px;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px 2px;
+    margin-bottom: 80px;
+}
+
+.continuebtn:hover{
+    color: #4484FF;
+    background-color: white;
+    transform:scale(1.1);
+}
+.result{
+    margin-left: 20%;
+    margin-top: 80px;
+}
+
+.images{
+    margin-top: 30px;
+}
+.images img{
+    width: 80px;
+    height: 70px;
+    border: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.result h4{
+    color: #343434;
+    font-family: 'Dosis',sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 35px;
+}
+.imagesresult{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 25px;
+    margin-bottom: 100px;
+}
+
+.imagesresult p{
+    margin: 20px 20px 20px 20px;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #343434;
+}
+
+.leftbtn{
+    border: none;
+    border-radius: 20px;
+    height: 0px;
+    width: 70px;
+    background:transparent;
+}
+
+.rightbtn{
+    border: none;
+    border-radius: 20px;
+    height: 0px;
+    width: 70px;
+    background: transparent;
+}
+
+.slider{
+    width: 20%;
+    margin-left: 38.8%;
+    margin-bottom: 60px;
+}
+.stepper{
+    background: transparent;
+    margin-left: 33%;
+    margin-top: 10px;
+}
+@media (max-width:960px) {
+    .slider{
+        margin-left: 36.8%;
+    }
+}
+@media (max-width:800px) {
+    .slider{
+        width:40%;
+        margin-left: 29.8%;
+    }
+}
+@media (max-width:700px) {
+    .slider{
+        width:60%;
+        margin-left: 20.8%;
+    }
+}
+@media (max-width:450px) {
+    .slider{
+        width:60%;
+        margin-left: 15.8%;
+    }
+}

@@ -1,0 +1,294 @@
+.aboutyou{
+    margin-top: 5px;
+}
+
+.leftaboutyou{
+    transform: rotate(295deg);
+    display: inline-block;
+    animation: rotation 2s linear;
+}
+
+@media (max-width:991px) {
+    .aboutyou{
+        margin-left: 25%;
+    }
+}
+@media (max-width:901px) {
+    .aboutyou{
+        margin-left: 22%;
+    }
+}
+@media (max-width:801px) {
+    .aboutyou{
+        margin-left: 15%;
+    }
+}
+
+.rightaboutyou{
+    margin-left: -38px;
+    position: relative;
+    top:80px;
+    left: -67.5px;
+    display: inline-block;
+}
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(295deg);
+    }
+    50%{
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(295deg);
+    }
+}
+
+.understandyourself{
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #3F7856;
+    color: white;
+    width: 220px;
+    height: 50px ;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.personalitytest{
+    border-radius: 15px;
+    position: relative;
+    left:35px;
+    text-align: center;
+    padding: 10px 0;
+    width: 140px;
+    height: 60px ;
+    background-color: #2E6171;
+    color: white;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+
+    transform: rotate(5deg);
+    animation: personalitiyrotation 2s linear;
+}
+
+@keyframes personalitiyrotation  {
+    0% {
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        left: 75px;
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+
+.careerchoices{
+    border-radius: 12px;
+    position: relative;
+    left: -100px ;
+    margin-left: 110px;
+    text-align: center;
+    padding: 7px 0;
+    width: 200px;
+    height: 35px ;
+    background-color: #D293A9;
+    color: white;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+
+    transform: rotate(5deg);
+    animation: careerrotation 2s linear;
+}
+
+@keyframes careerrotation {
+    0% {
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        left: 35px;
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+.knowyourfeeling{
+    border-radius: 15px;
+    position: relative;
+    top: -2px;
+    left: -7px;
+    text-align: center;
+    padding: 13px 0;
+    width: 200px;
+    height: 50px ;
+    background-color: #C2CB5B;
+    color: white;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    transform: rotate(5deg);
+    animation: knowyourselfrotation 2s linear;
+}
+
+@keyframes knowyourselfrotation {
+    0% {
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        left: 65px;
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@media (max-width: 1318px){
+    .understandyourself{
+        position: relative;
+        left:-50px;
+        margin-top: 80px;
+        padding: 10px 0;
+        width: 200px;
+        height: 40px ;
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .rightaboutyou{
+        margin-left: 0px;
+        position: relative;
+        top: -35px;
+        left: 125px;
+        display: inline-block;
+    }
+    .personalitytest{
+        position: relative;
+        left:30px;
+        padding: 10px 0;
+        width: 200px;
+        height: 40px ;
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .careerchoices{
+        position: relative;
+        left: -95px ;
+        padding: 10px 0;
+        width: 200px;
+        height: 40px ;
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .knowyourfeeling{
+        position: relative;
+        left:0px;
+        padding: 10px 0;
+        width: 200px;
+        height: 40px ;
+        font-size: 20px;
+        line-height: 10px;
+    }
+}
+
+@media (max-width: 991px){
+    .understandyourself{
+        margin-top: 100px;
+    }
+
+    .rightaboutyou{
+        margin-left: 0px;
+        position: relative;
+        top:80px;
+        left: -65px;
+    }
+    .personalitytest{
+        position: relative;
+        left:30px;
+    }
+    .careerchoices{
+        position: relative;
+        top:-1px;
+        left: -97px ;
+    }
+    .knowyourfeeling{
+        position: relative;
+        top:-3px;
+        left: -5px;
+    }
+}
+@media (max-width: 654px){
+    .understandyourself{
+        margin-top: 100px;
+    }
+
+    .rightaboutyou{
+        margin-left: 0px;
+        position: relative;
+        top:10px;
+        left: 131px;
+    }
+    .personalitytest{
+        position: relative;
+        top: -40px;
+        left:30px;
+    }
+    .careerchoices{
+        position: relative;
+        top:-41px;
+        left: -97px ;
+    }
+    .knowyourfeeling{
+        position: relative;
+        top:-43px;
+        left: -5px;
+    }
+}
+
+@media (max-width: 535px){
+    .understandyourself{
+        position: relative;
+        left: -100px;
+        margin-top: 0px;
+    }
+
+    .rightaboutyou{
+        margin-left: 0px;
+        position: relative;
+        top:35px;
+        left: 68px;
+    }
+    .personalitytest{
+        position: relative;
+        top:-1px;
+        left:30px;
+    }
+    .careerchoices{
+        position: relative;
+        top:-1px;
+        left: -97px ;
+    }
+    .knowyourfeeling{
+        position: relative;
+        top:-3px;
+        left: -5px;
+    }
+}

@@ -1,0 +1,334 @@
+.formheader{
+    margin-top: 80px;
+    width:500px;
+    margin-left: 9.3%;
+}
+
+@media (max-width:899px) {
+    .formheader{
+        margin-left: -1.8%;
+    }
+}
+
+.formheader h2{
+    margin-top: 3%;
+    margin-left: 4%;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 440;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6E6E6E;
+}
+
+.formheader small{
+    text-decoration: underline;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6E6E6E;
+}
+
+.formheader h4{
+    margin-top: -1%;
+    margin-bottom: -5%;
+    margin-left: 4%;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6E6E6E;
+}
+
+
+.formcontent{
+    margin-top: 5%;
+    margin-left: 11%;
+}
+
+.formcontent h2{
+    margin-top: 15px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1D4D25;
+
+}
+
+.basicpara{
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 520;
+    font-size: 13px;
+    line-height: 15px;
+    color: #474747;
+    width :210px;
+}
+
+.information{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.information h4{
+
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #2F2F2F;
+}
+
+/* .gender{
+    display: inline-block;
+    /* display: inline-block; */
+    /* margin-top: -8%; */
+    
+
+
+/* .genderbtn button{
+    display: inline-block;
+    margin-top: 10px;
+    height: 39px;
+    width: 90px ;
+    margin-right: 10px;
+    border-width: thin;
+    border-style: solid ;
+    border-color: #CECECE;
+    border-radius: 20px;
+    background-color: #EBF2FB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #4C393C;
+} */
+
+/* .yourstatus{
+    display: inline-block;
+    /* display: inline-block; */
+    /* margin-left: 230px; 
+}*/
+
+/* .yourstatusbtn button{
+    display: inline-block;
+    margin-top: 10px;
+    height: 39px;
+    width: 100px ;
+    margin-right: 10px;
+    border-width: thin;
+    border-style: solid ;
+    border-color: #CECECE;
+    border-radius: 20px;
+    background-color: #EBF2FB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #4C393C;
+} */
+
+/* .information2{
+    margin-top: 50px;
+    margin-left: 8%;
+    margin-bottom: 4%;
+} */
+
+/* .information2 h4{
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #2F2F2F;
+} */
+
+
+.birthday{
+    display: inline-block;
+}
+@media (max-width: 1000px) {
+    .birthday{
+        margin-top: 5%;
+    }
+    .yourstatus{
+        margin-top: 5%;
+    }
+}
+
+/* .dayofbirth{
+    display: inline-block;
+    background-color: #EBF2FB ;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-color: #CECECE;
+    border-width: thin;
+    border-style: solid ;
+    color: #4C393C;
+}
+
+.dayofbirth span {
+    color: #4C393C;
+}
+
+.monthofbirth{
+    display: inline-block;
+    background-color: #EBF2FB ;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-color: #CECECE;
+    border-width: thin;
+    border-style: solid ;
+    color: #4C393C;
+}
+
+.monthofbirth span {
+    color: #4C393C;
+}
+
+
+.yearofbirth{
+    display: inline-block;
+    background-color: #EBF2FB ;
+    border-radius: 20px;
+    border-color: #CECECE;
+    border-width: thin;
+    border-style: solid ;
+    color: #4C393C;
+}
+
+.yearofbirth span {
+    color: #4C393C;
+} */
+
+
+/* .childern{
+    /* display: inline-block;
+    margin-left: 165px; 
+}*/
+
+
+/* .childernbtn button{
+    margin-top: 10px;
+    height: 39px;
+    width: 100px ;
+    margin-right: 10px;
+    border-width: thin;
+    border-style: solid ;
+    border-color: #CECECE;
+    border-radius: 20px;
+    background-color: #EBF2FB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #4C393C;
+} */
+
+.physicalpara{
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 520;
+    font-size: 13px;
+    line-height: 15px;
+    color: #474747;
+    width :160px;
+}
+
+.inputform{
+    margin-top: 3%;
+    margin-left: 7%;
+    width:27%;
+}
+
+
+.formlabel{
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    font-weight: 600;
+    width:65%;
+    color: #585858;
+}
+
+.textarea{
+    margin-top: -5%;
+    margin-right: 10%;
+}
+
+
+
+.issues{
+    margin-left: 50% ;
+    margin-top: -140px;
+}
+
+.issues h4{  
+    margin-top: -50px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2F2F2F;
+}
+
+/* .issuesitems{
+    text-align: center;
+    width: 150px ;
+    background-color: #EBF2FB ;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-color: #CECECE;
+    border-width: thin;
+    border-style: solid ;
+    color: #4C393C;
+}
+
+.issuesitems span {
+    color: #4C393C;
+} */
+
+.testinstructionsbtn{
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #4484FF;
+    border-color: #4484FF;
+    color: white;
+    border-style: solid;
+    border-radius: 12px;
+    height: 60px ;
+    width: 200px;
+    margin-top: 110px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+
+.testinstructionsbtn:disabled,
+.testinstructionsbtn:focus:disabled,
+.testinstructionsbtn:hover:disabled,
+.testinstructionsbtn:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.testinstructionsbtn:hover{
+    color: #4484FF;
+    background-color: white;
+    transform:scale(1.1);
+  }
+  

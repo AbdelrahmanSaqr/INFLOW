@@ -1,0 +1,296 @@
+/* body {
+    overflow-y: hidden;
+  } */
+
+
+.home{
+    height: 40.99rem;
+    min-height: 100%;
+    background: url("../../../assets/image 102.png");
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+    top:0px;
+}
+
+
+@media screen and (max-width: 1000px) and (max-height: 1000px) and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.1dpcm) and (max-resolution: 0.2dpcm) {
+    .home{
+        height: 47.99rem;
+    }
+}
+/* The max-width and max-height conditions limit the size of the screen to 1000 pixels or less in each dimension, */
+/* while the -webkit-min-device-pixel-ratio and min-resolution conditions ensure that 
+the query only applies to screens with a low pixel density (such as those that have been zoomed out) */
+/* Finally, the max-resolution condition ensures that the query only applies 
+to screens where the resolution is low enough to indicate a zoom level of 70% or less. */
+
+/* @media screen and (max-width: 1000px) and (max-height: 1000px) and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.1dpcm) and (max-resolution: 0.15dpcm) {
+    .home{
+        height: 51.99rem;
+    }
+     here apllied to 50% or less
+} */
+
+@media (max-width:680px) {
+    .home{
+        height: 45.99rem;
+    }
+}
+@media (max-width:999px) {
+    .home{
+        height: 45.99rem;
+    }
+}
+@media (max-width:452px){
+    .home{
+        height: 55.99rem;
+    }
+}
+@media (max-width:431px){
+    .home{
+        height: 65.99rem;
+    }
+}
+
+
+.home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(-2px);
+    backdrop-filter: brightness(40%);
+}
+
+.leftbtn{
+    border: none;
+    border-radius: 20px;
+    height: 60px;
+    width: 70px;
+    background:transparent;
+    /* filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.25)); */
+    /* backdrop-filter: blur(0px); */
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.leftbtn svg{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.rightbtn{
+    border: none;
+    border-radius: 20px;
+    height: 60px;
+    width: 70px;
+    background: transparent;
+    /* background: linear-gradient(105.96deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.25)); */
+    
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+.rightbtn svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width:1000px) {
+    .leftbtn{
+        height: 40px;
+        width: 50px;
+    }
+    .leftbtn svg{
+        height: 20px;
+        width: 50px;
+    }
+    .rightbtn{
+        height: 40px;
+        width: 50px;
+    }
+    .rightbtn svg{
+        height: 20px;
+        width: 50px;
+    }
+}
+@media (max-width:600px) {
+    .leftbtn{
+        left: 8%;
+    }
+    .rightbtn{
+        left: 92%;
+    }
+}
+
+.homecontent{
+    height: 80%;
+    border-radius: 10px;
+    margin-top: 2%;
+    width: 73%;
+    background: linear-gradient(0.96deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.25));
+    /* border-radius: 0%; */
+    backdrop-filter: brightness(50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.faqs{
+    position: relative;
+    top:100px;
+}
+.faqs h1 {
+    position: relative;
+    font-style: "inter";
+    color: #ffffff;
+    fill-opacity: 80%;
+    font-weight: 370;
+    font-size: 44.5px;
+    line-height: 60px;
+    animation: slideUp 2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    .faqs h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px */
+    .faqs h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+
+
+
+.faqs button {
+    margin-right: 25px;
+    margin-top: 30px;
+    height: 65px;
+    width: 210px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+    animation: slideUp 4s ease-in-out;
+  }
+  
+  .faqs button:hover {
+    background-color: white;
+    color: #4484FF;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .faqs button {
+      width: 100%; /* Adjust width to fit the screen */
+      margin-right: 0;
+      margin-bottom: 15px; /* Change margin to create spacing between buttons */
+    }
+  }
+  
+
+@media (max-width:555px) {
+    .faqs{
+        width: 80%;
+    }
+    .faqs h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .downarrow{
+        position:relative;
+        left: -10% ;
+    }
+}
+
+@media (max-width:470px){
+    .faqs{
+        width: 70%;
+    }
+}
+@media (max-width:390px){
+    .faqs{
+        width: 60%;
+    }
+    .downarrow{
+        position:relative;
+        left: -20% ;
+    }
+}
+@media (max-width:351px){
+    .faqs h1{
+        font-size: 30px;
+    }
+    .faqs{
+        width: 56%;
+    }
+}
+.downarrow{
+    position:relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.5s;
+    animation: slideUp 2s ease-in-out;
+}
+/* @media (max-width:771px) {
+    .downarrow{
+        position:relative;
+        top: 200px;
+    }
+} */
+@media (max-width:524px){
+    .downarrow{
+        top: 100px;
+    }
+}
+
+.downarrow:hover{
+    transform:scale(1.2);
+}
+/* 
+.stepper{
+    border: 4px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: transparent;
+} */
+@keyframes slideUp {
+    0% {
+      transform: translateY(300%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
