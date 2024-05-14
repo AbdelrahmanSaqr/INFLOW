@@ -1,0 +1,298 @@
+.logodisplay{   
+  margin-top: 3%;
+  background-color: white;
+  border-radius: 20px;
+  border:none;
+}
+
+.contentheader{
+  text-align: center;
+  margin-left: 8%;
+  margin-top: 15px;
+  margin-right: 8%;
+}
+.contentheader h2{
+  color: #343434;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+.contentheader p{
+  display: inline;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #373737;
+}
+
+.contentquestions{
+  text-align: center;
+  margin-left: 8%;
+  margin-top: 40px;
+  margin-right: 8%;
+}
+.contentquestions h4{
+  position: relative;
+  left: -40px;
+  margin-top: 40px;
+  text-align: left;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #343434;
+}
+@media (min-width:899px) and (max-width: 1110px) {
+  .contentquestions h4{
+    position: relative;
+    left: -20px;
+  }
+}
+@media (max-width : 735px) {
+  .contentquestions h4{
+    position: relative;
+    left: 0px;
+  }
+}
+@media (max-width : 450px) {
+  .contentquestions h4{
+    width:50%;
+    position: relative;
+    left: 20px;
+  }
+}
+.contentquestions img{
+  margin-top: 43px;
+}
+
+@media (max-width:1150px) and (min-width:900px) {
+  .contentheader h4{
+    margin-left: 15%;
+  }
+  .contentheader p{
+    margin-right: 2%;
+  }
+}
+.content{
+  border-radius: 20px;
+  width:40%;
+  margin-top: 30px;
+  margin-left: 30%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 25px;
+  margin-bottom: 50px;
+}
+@media (max-width:899px) {
+  .content{
+    width:60%;
+    margin-left: 20%;
+  }
+}
+@media (max-width:600px) {
+  .content{
+    width:80%;
+    margin-left: 10%;
+  }
+}
+.header{
+  background-color: #4484FF ;
+  animation-name: fade-in;
+  animation-duration: 4s;
+  /* height: 260px ; */
+  
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.header h1{
+  text-align: center;
+  
+  margin-top: 10px;
+  right: 100px;
+    
+  font-family: 'Inter' ,sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  /* font-size: 83px; */
+  line-height:175px;
+  color: #ffffff;
+}
+
+.pagecontent{
+  margin-top: 45px;
+  width: 100%;
+}
+
+.testinstructiontext h4{
+  /* margin-left: 100px; */
+  text-align: left;
+  font-family:'Inter' , sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 10px;
+  color: #515151;
+}
+
+.testinstructionpara p{
+  /* margin-left: 100px; */
+  /* margin-top: 15px; */
+  text-align: left;
+  color: #545454;
+  /* margin-left: 11.2%; */
+  font-family:'Inter' , sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.imagecontainer {
+  margin-top: 10px;
+  display: inline-block;
+}
+.submitBtn{
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgba(68, 132, 255, 0.6);
+  border-color: #4486ff2c;
+  color: white;
+  border-style: solid;
+  border-radius: 30px;
+  height: 54px ;
+  width: 100px;
+  margin-left: 10%;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 5px 2px;
+}
+.submitBtn:hover{
+  background-color: #4484FF;
+}
+.submitBtn:disabled,
+.submitBtn:focus:disabled,
+.submitBtn:hover:disabled,
+.submitBtn:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+@media (max-width : 899px) {
+  .submitBtn{
+    margin-bottom: 10%;
+  }
+}
+.genderbtn h5{
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 9px;
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.genderbtn {
+  text-align: left;
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: rgba(68, 132, 255, 0.6);
+  border-color: #4486ff2c;
+  color: white;
+  border-style: solid;
+  border-radius: 30px;
+  height: 54px ;
+  width: 100%;
+  margin-top: 0px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 5px 2px;
+  margin-bottom: 20px;
+}
+.genderbtn:hover{
+  background-color: #4484FF;
+}
+
+@media (max-width : 899px) {
+  .genderbtn{
+    width:85%;
+    margin-left:30px;
+  }
+}
+@media (max-width : 450px) {
+  .genderbtn{
+    width:85%;
+    margin-left:10px;
+  }
+}
+.countrybtn h5{
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 9px;
+  /* margin-left: 30px; */
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.countrybtn {
+  text-align: left;
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: rgba(68, 132, 255, 0.6);
+  border-color: #4486ff2c;
+  color: white;
+  border-style: solid;
+  border-radius: 30px;
+  height: 54px ;
+  width: 100%;
+  margin-top: 0px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 5px 2px;
+  margin-bottom: 20px;
+}
+.countrybtn:disabled,
+.countrybtn:focus:disabled,
+.countrybtn:hover:disabled,
+.countrybtn:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+.countrybtn:hover{
+  background-color: #4484FF;
+}
+
+@media (max-width : 899px) {
+  .countrybtn{
+    width:80%;
+    margin-left:30px;
+  }
+}
+@media (max-width : 450px) {
+  .countrybtn{
+    width:85%;
+    margin-left:10px;
+  }
+}
+.countrybtn:disabled,
+.countrybtn:focus:disabled,
+.countrybtn:hover:disabled,
+.countrybtn:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

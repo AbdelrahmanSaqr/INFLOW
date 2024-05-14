@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/fragmentLogin">
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.mostafa.gradproject2.ui.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragmentLogin_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mostafa.gradproject2.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_meetingDetailsFragment"
+            app:destination="@id/meetingDetailsFragment" />
+
+        <argument
+            android:name="doctorImage"
+            app:argType="string"
+            android:defaultValue="" />
+
+        <argument
+            android:name="doctorName"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+
+        android:id="@+id/meetingDetailsFragment"
+        android:name="com.mostafa.gradproject2.ui.fragments.MeetingDetailsFragment"
+        android:label="Meeting Details Fragment">
+
+        <argument
+            android:name="patientAge"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="currentCity"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="gender"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="originalCity"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="patientImage"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="patientId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="phoneNumber"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="status"
+            app:argType="string"
+            android:defaultValue="" />
+
+        <argument
+            android:name="app_id"
+            app:argType="string"
+            android:defaultValue="" />
+
+
+        <action
+            android:id="@+id/action_meetingDetailsFragment_to_addNotesFragment"
+            app:destination="@id/addNotesFragment" />
+        <action
+            android:id="@+id/action_meetingDetailsFragment_to_remember_fragment"
+            app:destination="@id/remember_fragment" />
+        <action
+            android:id="@+id/action_meetingDetailsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/addNotesFragment"
+        android:name="com.mostafa.gradproject2.ui.fragments.AddNotesFragment"
+        android:label="fragment_add_notes"
+
+        >
+        <argument
+            android:name="patientAge"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="currentCity"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="gender"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="originalCity"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="patientImage"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="patientId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="phoneNumber"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="status"
+            app:argType="string"
+            android:defaultValue="" />
+
+        <argument
+            android:name="app_id"
+            app:argType="string"
+            android:defaultValue="" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/searchMeetingFragment"
+        android:name="com.mostafa.gradproject2.ui.fragments.SearchMeetingFragment"
+        android:label="fragment_search_meeting"
+        tools:layout="@layout/fragment_search_meeting" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.mostafa.gradproject2.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/remember_fragment"
+        android:name="com.mostafa.gradproject2.ui.fragments.Remember_fragment"
+        android:label="fragment_remember"
+        tools:layout="@layout/fragment_remember"
+        >
+
+        <argument
+            android:name="patientAge"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="currentCity"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="gender"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="originalCity"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="patientImage"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="patientId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="phoneNumber"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="status"
+            app:argType="string"
+            android:defaultValue="" />
+
+        <argument
+            android:name="app_id"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_remember_fragment_to_meetingDetailsFragment"
+            app:destination="@id/meetingDetailsFragment" />
+        <action
+            android:id="@+id/action_remember_fragment_self"
+            app:destination="@id/remember_fragment" />
+
+    </fragment>
+    <!--        tools:layout="@layout/fragment_meeting_details" >-->
+
+</navigation>

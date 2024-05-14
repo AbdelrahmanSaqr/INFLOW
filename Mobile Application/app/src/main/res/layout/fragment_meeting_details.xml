@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.MeetingDetailsFragment"
+    android:background="@color/gray">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:background="@drawable/carvedlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout8"
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/gradient_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:id="@+id/patientName_textView"
+            style="@style/headingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Abdel Rahmanyasse"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+
+            />
+
+        <TextView
+            android:id="@+id/rememberMe_txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:text="@string/remember_me"
+            android:textColor="@color/LinkText"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintStart_toStartOf="@+id/patientName_textView"
+            app:layout_constraintTop_toBottomOf="@+id/patientName_textView" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:id="@+id/Age_txtView"
+                    style="@style/headingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:text="@string/age" />
+
+                <EditText
+                    android:id="@+id/Age_editText"
+                    style="@style/edit_Text_meetingDetails"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_gray_edittext"
+                    android:enabled="false"
+                    android:hint=""
+                    android:inputType="date"
+                    android:text="@string/_9_july_2000"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/Original_txtView"
+                    style="@style/headingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:text="@string/original_city" />
+
+                <EditText
+                    android:id="@+id/birthCity_editView"
+                    style="@style/edit_Text_meetingDetails"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_gray_edittext"
+                    android:enabled="false"
+                    android:text="@string/alexandria"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/CurrentCity_textView"
+                    style="@style/headingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:text="@string/current_city" />
+
+                <EditText
+                    android:id="@+id/CurrentCity_editText"
+                    style="@style/edit_Text_meetingDetails"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_gray_edittext"
+                    android:enabled="false"
+                    android:text="@string/cairo"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/phone_textView"
+                    style="@style/headingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:text="@string/Phone" />
+
+                <EditText
+                    android:id="@+id/phone_editText"
+                    style="@style/edit_Text_meetingDetails"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_gray_edittext"
+                    android:enabled="false"
+                    android:inputType="phone"
+                    android:text="@string/_0123456789"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/Gender_textView"
+                    style="@style/headingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:text="@string/gender" />
+
+                <EditText
+                    android:id="@+id/Gender_editText"
+                    style="@style/edit_Text_meetingDetails"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_gray_edittext"
+                    android:enabled="false"
+                    android:text="@string/male"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/Status_textView"
+                    style="@style/headingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:text="@string/status" />
+
+                <EditText
+                    android:id="@+id/Status_editText"
+                    style="@style/edit_Text_meetingDetails"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_gray_edittext"
+                    android:enabled="false"
+                    android:text="@string/single"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/Email_textView"
+                    style="@style/headingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:text="@string/e_mail" />
+
+                <EditText
+                    android:id="@+id/email_editText"
+                    style="@style/edit_Text_meetingDetails"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_gray_edittext"
+                    android:enabled="false"
+                    android:inputType="textEmailAddress"
+                    android:text="@string/mostafa_gmail_com"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+
+            android:id="@+id/addNotes_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/rounded_button_meeting_details"
+            android:backgroundTint="#616161"
+            android:text="@string/add_notes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/patient_shapeableImageView"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_89sdp"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/patient1" />
+
+
+    <ImageView
+        android:id="@+id/back_imageview"
+        android:contentDescription="@string/backbutton"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/_10sdp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,217 @@
+.completePayment h1{
+    margin-top: 40px;
+    color: #343434;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 540;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    /* justify-content: center; */
+}
+.completePayment h2{
+    color: #343434;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 540;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    /* justify-content: center; */
+}
+.card{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    /* filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25)); */
+    margin-top: 30px;
+    /* border: solid 1px; */
+    box-shadow: 0.1px 0.1px 4px 2px rgba(152, 149, 149, 0.25);
+    width:500px;
+    margin-bottom: 30px;
+}
+.card h3{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 5px;
+    color: #464646;
+}
+.card h4{
+    margin-left: 30px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #A3A3A3;
+}
+.namecontent{
+    margin-left: 30px;
+    border: 0.5px solid #9E9E9E;
+    border-radius: 5px;
+    width: 430px;
+    height:45px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.namecontent::placeholder{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #A3A3A3;
+    position: relative;
+    left: 20px;
+}
+.cardnumber{
+    margin-left: 30px;
+    border: 0.5px solid #9E9E9E;
+    border-radius: 5px;
+    width: 430px;
+    height:45px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.cardnumber::placeholder{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #A3A3A3;
+    position: relative;
+    left: 20px;
+}
+.cvvnumber{
+    margin-left: 30px;
+    border: 0.5px solid #9E9E9E;
+    border-radius: 5px;
+    width: 200px;
+    height:45px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.cvvnumber::placeholder{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #A3A3A3;
+    position: relative;
+    left: 20px;
+}
+.expiredate{
+    margin-left: 30px;
+    border: 0.5px solid #9E9E9E;
+    border-radius: 5px;
+    width: 70px;
+    height:45px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.expiredate::placeholder{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #A3A3A3;
+    position: relative;
+    left: 25px;
+}
+.paymentBtn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 95px;
+    background: #4484FF;
+    border: #4484FF;
+    border-radius: 15px;
+    width: 313px;
+    height: 45px;    
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.success{
+    opacity: 90%;
+}
+.successmessage{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 200px;
+    /* bgcolor: background.paper; */
+    border: 1px solid #000;
+    /* boxShadow: 24;
+    p: 4;
+    borderRadius: '20px'; */
+    border-radius: 20px;
+    border: solid 2px white;
+    background-color: white;
+}
+.successmessage svg{
+    position: relative;
+    top: 40px;
+}
+.successmessage h1{
+    position: relative;
+    top: 50px;
+    margin-top: 12px;
+    text-align: center;
+    color:#4484FF;
+    font-size: 18px;
+    font-family: 'Inter' , sans-serif;
+    font: bold;
+}
+@media (max-width:600px){
+    .successmessage{
+        width: 80%;
+    }
+}
+@media (max-width:550px) {
+    .card{
+        width:80%;
+    }
+    .namecontent{
+        width:80%;
+    }
+    .cardnumber{
+        width:80%;
+    }
+    .cardnumber::placeholder{
+        left: 5px;
+    }
+    .cvvnumber{
+        width:80%;
+    }
+    .expiredate{
+        width:80%;
+    }
+    .expiredate::placeholder{
+        left: 10px;
+    }
+    .paymentBtn{
+        width:50%;
+        left: 25%;
+    }
+}
+.paymentBtn:disabled,
+.paymentBtn:focus:disabled,
+.paymentBtn:hover:disabled,
+.paymentBtn:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

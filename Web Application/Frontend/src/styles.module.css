@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.MuiPaginationItem-ellipsis {
+  display: none;
+}
+.hideEllipsis {
+  display: none;
+}

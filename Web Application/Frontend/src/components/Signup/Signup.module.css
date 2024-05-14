@@ -1,0 +1,387 @@
+.signup{
+  margin-top: 70px;
+}
+
+.signupcontent{
+  display: grid;
+  grid-template-columns: 6fr 6fr ;   
+}
+
+.leftpage{
+  margin-left: 30px;
+  margin: 50px 0px 10px 100px ;
+  width : 50%;
+}
+@media (max-width:450px) {
+  .leftpage{
+    width: 60%;
+    margin-left: 15px;
+  }
+}
+
+
+.createaccount h5{
+  /* margin-left: -65px; */
+  /* text-align: center; */
+  font-size: 30px;
+  font-family: 'Inter' , sans-serif;
+}
+
+.haveaccount{
+  /* text-align: center; */
+  /* margin-left: -60px; */
+  font-family: 'Inter' ,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.haveaccount button{
+  background-color: white;
+  border: none;
+  color: #4484FF;
+}
+
+.name{
+  margin: 10px 0px 0px 0px ;
+  width: 100%;
+}
+
+.name h4 {
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px ;
+  line-height: 20px;
+  color: #111B2B;
+}
+
+.namecontent{
+  margin-top: -8px;
+  border: 1px solid rgb(211, 207, 207);
+  border-radius: 5px;
+  position: relative;
+  height: 47px;
+  width: 100%;
+}
+@media (max-width:550px) {
+  .namecontent{
+    width: 60%;
+  }
+}
+
+.email{
+  margin: 10px 0px 0px 0px ;
+}
+
+
+.email h4 {
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px ;
+  line-height: 20px;
+  color: #111B2B;
+}
+
+.emailcontent{
+  margin-top: -8px;
+  border: 1px solid rgb(211, 207, 207);
+  border-radius: 5px;
+  position: relative;
+  height: 47px;
+  width: 100%;
+}
+@media (max-width:550px) {
+  .emailcontent{
+    width: 60%;
+  }
+}
+
+.city{
+  width: 330px;
+}
+
+
+.originalcity{
+  margin: 10px 0px 0px 0px ;
+  display: inline-block;
+}
+
+.cityofresidence{
+  margin: 10px 0px 0px 0px ;
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.originalcity h4{
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 13px ;
+  line-height: 20px;
+  color: #111B2B;
+}
+
+.originalcity select{
+  padding: 10px 15px;
+  gap: 10px;
+  width: 160px;
+  height: 42px;
+  border: 0.10px solid #c9c8c8;
+  border-radius: 5px;
+}
+
+.cityofresidence h4{
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px ;
+  line-height: 20px;
+  color: #111B2B;
+}
+
+.cityofresidence select{
+  padding: 10px 15px;
+  gap: 10px;
+  width: 160px;
+  height: 42px;
+  border: 0.5px solid #c9c8c8;
+  border-radius: 5px;
+}
+
+.password{
+  margin: 10px 0px 0px 0px;
+
+}
+
+.password h4{
+  
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px ;
+  line-height: 20px;
+  color: #111B2B;
+}
+
+.passwordcontent{
+  margin-top: -8px;
+  border: 1px solid rgb(211, 207, 207);
+  border-radius: 5px;
+  position: relative;
+  height: 47px;
+  width: 100%;
+}
+@media (max-width:550px) {
+  .passwordcontent{
+    width: 60%;
+  }
+}
+
+
+.signupbtn{
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-family: 'Inter' , sans-serif;
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 20px;
+  background-color: #4484FF;
+  border-color: #4484FF;
+  color: white;
+  border-style: solid;
+  border-radius: 15px;
+  height: 45px ;
+  width: 100%;
+}
+@media (max-width:550px) {
+  .signupbtn{
+    width: 60%;
+  }
+}
+
+
+.signupbtn:disabled,
+.signupbtn:focus:disabled,
+.signupbtn:hover:disabled,
+.signupbtn:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+
+.termsandconditions{
+  margin-top: 5px;
+  width: 100%;
+  font-family: 'Inter' ,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #616161;
+}
+@media (max-width:550px) {
+  .termsandconditions{
+    width: 60%;
+  }
+}
+
+/* .termsandconditions button{
+  background-color: white;
+  border: none;
+  color: #4484FF;
+} */
+
+.signupwith:before{
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #BBBBBB;
+}
+.signupwith{
+  /* margin-left: 40%; */
+  margin-left: 33%;
+  margin-top: 10px;
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  width: 280px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+  color: #616161;
+  position: relative;
+  /*  new lines  */
+  max-width: 300px;
+  text-align: center;
+}
+.signupwith:after{
+  content:" ";
+  height: 2px;
+  width: 25%;
+  background: #BBBBBB;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.googlebtn{
+  margin-bottom: 60px;
+  position: relative;
+  top: 10px;
+  margin-left: 25px;
+  padding: 0 110px;
+  /* width:280px; */
+   margin-right: -20%;  
+  text-align: center;
+  border-style: solid;
+  border-radius: 12px;
+  height: 35px ;
+  width: fit-content ;
+  border-color: #C02727;
+  background-color: #C02727;
+}
+.googlebtn span{
+  color: white;
+  font-family: 'Inter',sans-serif;
+  font-size: 20px;
+}
+
+
+@media (max-width:899px) {
+  .googlebtn{
+    margin-left: 0%;
+  }
+}
+
+.google{
+  color:white;
+  background-color: #C02727;
+}
+
+
+
+.rightpage{
+  margin: 50px 0px 0px 10% ;
+}
+@media (max-width:450px) {
+  .rightpage{
+    margin: 50px 0px 0px 5% ;
+  }
+}
+.rightpage h2{
+  font-weight: 700;
+  font-size: 35px;
+  font-family: 'Inter' ,sans-serif;
+  font-style: normal;
+  margin-left: 40px;
+  color:#4484FF ;
+}
+/* @media (max-width:550px) {
+  .box1{
+    width: 350px;
+    height: 205px;
+  }
+} */
+
+
+.box1{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 30px;
+  width: 85%;
+  height: 85%;
+  background-color: white;
+}
+
+.box1 h2{
+  width: 70%;
+  font-weight: 700;
+  font-size: 35px;
+  font-family: 'Inter' ,sans-serif;
+  font-style: normal;
+  color: #4484FF;
+}
+
+.box1 p{
+  font-family: 'Inter' ,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  width: 70% ;
+  margin-left: 40px;
+  color: #616161;
+}
+@media (max-width:550px) {
+  .box1 h2{
+    font-size: 25px;
+  }
+  .box1 p{
+    font-size: 14px;
+  }
+}
+.box2{
+  margin: -24% 0px 0px 16% ;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 30px;
+  width: 85%;
+  height: 85%;
+  background-color: white;
+}
+
+.box2 img{
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+

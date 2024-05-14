@@ -1,0 +1,82 @@
+.verfication{
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-bottom: 10%;
+}
+
+.verfication h2{
+    margin-left: -2.5%;
+    width: 300px;
+    height: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #111B2B;
+}
+
+.verfication p{
+    width: 300px;
+    height: 40px;
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    color: #111B2B;
+}
+
+
+.email h4 {
+    font-family: 'Inter' , sans-serif;
+    font: bold;
+    font-size: 15px ;
+    color: #111B2B;
+}
+
+.emailcontent{
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 5px;
+    position: relative;
+    height: 47px;
+    width: 320px;
+}
+
+.continuebtn{
+    margin-top: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #4484FF;
+    border-color: #4484FF;
+    color: white;
+    border-style: solid;
+    border-radius: 12px;
+    height: 40px ;
+    width: 320px;
+}
+
+.resendcodebtn{
+    margin-left: 12%;
+    margin-top: 15px;
+
+    width: 120px;
+    height: 22px;
+
+    border-radius: 20px;
+    border: white;
+
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+
+    background-color: white;
+    color: #4484FF;
+}

@@ -1,0 +1,133 @@
+.howitworks{
+  margin-top: 100px ;
+  /* margin-left: 5% ; */
+  margin-bottom: 140px ;
+}
+.howitworks h1{
+  /* margin-left: 31%; */
+  font-family: 'Dosis',sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 26px;
+  color: #4484FF;
+}
+.content{
+  margin-top: 50px ;
+}
+
+.firstimage{
+  /* display: block;
+  margin: 0 auto; */
+  position: relative;
+  left: 25%;
+  
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-280%) rotate(-15deg) ;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+
+.secondimage{
+  position: relative;
+  left: 25%;
+  
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.thirdimage{
+  position: relative;
+  left: 20%;
+  
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(260%) rotate(15deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+.content h2 {
+  margin-left: 7%;
+  margin-top: 30px ;
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 20px;
+  color: #2E6171;
+}
+.content p {
+  margin-left: 7%;
+  margin-top: 20px ;
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  color: #464646;
+  animation-name: fade-in;
+  animation-duration: 4s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.firstimagescrolled{
+  animation: slideInFromLeft 1.5s ease-out;
+  transform: rotate(0deg);
+}
+.firstarrowscrolled{
+  animation: slideDown 1s ease-in-out;
+}
+.secondimagescrolled{
+  animation: slideInFromTop 1.5s ease-out;
+}
+.secondarrowscrolled{
+  animation: slideUp 1s ease-in-out;
+}
+.thirdimagescrolled{
+  animation: slideInFromRight 1.5s ease-out;
+  transform: rotate(0deg);
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

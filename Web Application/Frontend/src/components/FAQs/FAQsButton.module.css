@@ -1,0 +1,114 @@
+.FAQsButton button{
+    position: fixed;
+    top: 30%;
+    right: -3.7%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    width: 80px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #4484FF;
+    /* border-color: #4484FF; */
+    border: 2px solid #4484FF;
+    z-index: 9999; 
+    transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+}
+
+@media (max-width:1200px) {
+    .FAQsButton button{
+        right: -4%;
+    }
+}
+
+@media (max-width:1000px) {
+    .FAQsButton button{
+        right: -5%;
+    }
+}
+@media (max-width:700px) {
+    .FAQsButton button{
+        right: -7.5%;
+    }
+}
+@media (max-width:500px) {
+    .FAQsButton button{
+        right: -11%;
+    }
+}
+@media (max-width:450px) {
+    .FAQsButton button{
+        right: -13%;
+    }
+}
+@media (max-width:400px) {
+    .FAQsButton button{
+        right: -14.5%;
+    }
+}
+@media (max-width:350px) {
+    .FAQsButton button{
+        right: -17%;
+    }
+}
+
+.FAQsButton button:hover{
+    background-color: #4484FF;
+    color: white;
+}
+
+.Fees button{
+    position: fixed;
+    top: 44%;
+    right: -3.7%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    width: 80px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #4484FF;
+    /* border-color: #4484FF; */
+    border: 2px solid #4484FF;
+    z-index: 9999; 
+    transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+}
+
+@media (max-width:1200px) {
+    .Fees button{
+        right: -4%;
+    }
+}
+@media (max-width:1000px) {
+    .Fees button{
+        right: -5%;
+    }
+}
+@media (max-width:700px) {
+    .Fees button{
+        right: -7.5%;
+    }
+}
+@media (max-width:500px) {
+    .Fees button{
+        right: -11%;
+    }
+}
+@media (max-width:450px) {
+    .Fees button{
+        right: -13%;
+    }
+}
+@media (max-width:400px) {
+    .Fees button{
+        right: -14.5%;
+    }
+}
+@media (max-width:350px) {
+    .Fees button{
+        right: -17%;
+    }
+}
+
+.Fees button:hover{
+    background-color: #4484FF;
+    color: white;
+}

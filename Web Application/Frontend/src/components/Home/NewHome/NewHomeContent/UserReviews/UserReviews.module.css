@@ -1,0 +1,289 @@
+.userreviews{
+    width: 100%;
+    background-color: rgba(68, 132, 255, 0.8) ;
+    height: 500px;
+}
+
+@media (max-width:840px) {
+    .userreviews{
+        height: 600px;
+    }
+}
+@media (max-width:460px) {
+    .userreviews{
+        height: 700px;
+    }
+}
+@media (max-width:338px) {
+    .userreviews{
+        height: 800px;
+    }
+}
+
+.header {
+    margin-top: 3%;
+    margin-left: 9%;
+}
+.userreviewscontent{
+    position: relative;
+    top: 50px;
+    width:70%;
+    margin-left: 15%;
+}
+
+.header h1{
+    font-family: 'Dosis' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.header svg{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.content{
+    margin-top: 5%;
+    margin-left: 14.5%;
+    width: 70%;
+}
+
+.contentdescription{
+    margin-top: 0%;
+    /* margin-left: 10%; */
+    /* background-color: #FFFFFF; */
+}
+
+.contentdescription h3{
+    margin-top: 30px;
+    font-family: 'Dosis' , sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    color: white;
+}
+
+.contentdescription img{
+    display: inline-block;
+    border-radius: 50px;
+    height: 100px;
+    width:100px;
+}
+
+.contentdescription p{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+.contentdescription h5{
+    font-size: 35px;
+
+}
+.userreviewsbtn{
+    margin-top: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50px;
+    width: 270px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+}
+
+.userreviewsbtn:hover{
+    background-color: white;
+    color: #4484FF;
+}
+/* ImageSlider.module.css */
+
+.userreviewscontent h1{
+    font-family: 'Inter' ,sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.imageSlider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+}
+
+
+.rightbtn{
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+.rightbtn svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.leftbtn{
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+.leftbtn svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sliderContainer {
+    flex: 1;
+    position: relative;
+}
+
+.sliderLine {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 95%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.sliderImages {
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    width: 80%;
+    z-index: 999;
+}
+
+@media (max-width:613px) {
+    .sliderContainer{
+        width: 100%;
+    }
+}
+
+.sliderImage {
+    z-index: 999;
+    /* flex: 0 0 calc(21% - 85px); */
+    width: 90px;
+    height: 90px;
+    margin: 0 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+@media (max-width:870px) {
+    .sliderImages{
+        margin-left: 12%;
+    }
+    .sliderImage{
+        /* margin-left: 12%; */
+        width: 70px;
+        height: 70px;
+    }
+}
+@media (max-width:730px) {
+    .sliderImages{
+        margin-left: 13%;
+    }
+    .sliderImage{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width:580px) {
+    .sliderImages{
+        margin-left: 13%;
+    }
+    .sliderImage{
+        width: 40px;
+        height: 70px;
+        margin: 0 50px;
+    }
+}
+
+.sliderImage.active {
+    transform: scale(1.4);
+}
+
+@media (max-width: 768px) {
+    .imageSlider {
+        height: 200px;
+    }
+
+    .sliderImage {
+        width: 50px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 586px) {
+    .imageSlider {
+        height: 150px;
+    }
+
+    .sliderImage {
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+    }
+}
+
+.userreviewscontent p{
+    font-family: 'Inter' ,sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.userreviewscontent h2{
+    font-family: 'Inter' ,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 1);
+}

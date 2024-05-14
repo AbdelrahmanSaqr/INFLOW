@@ -1,0 +1,158 @@
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    margin-left: 0px;
+    border-radius: 12px;
+    border: none;
+    background-color: transparent;
+}
+.logo h5{
+    color: #464646;
+    position: relative;
+    top: 10px;
+    margin-left: -10px;
+    display: inline-block;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+@media (max-width: 899px) {
+    .logo h5{
+        top: 2px;
+    }
+}
+
+.navbarbtns {
+    
+    background-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    position: relative;
+    left:10%;
+}
+
+@media (max-width:1393px) {
+    .navbarbtns{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:1283px) {
+    .navbarbtns{
+        margin-left: 40px;
+    }
+    .logo{
+        margin-left: -10px;
+    }
+}
+@media (max-width: 1216px) {
+    .navbarbtns{
+        margin-left: 3.5%;
+    }
+}
+@media (max-width: 1116px) {
+    .navbarbtns{
+        margin-left: 2%;
+    }
+}
+@media (max-width: 1056px) {
+    .navbarbtns{
+        margin-left: 1.5%;
+    }
+}
+@media (max-width: 1016px) {
+    .navbarbtns{
+        margin-left: 5px;
+    }
+}
+
+@media (min-width:918px) and (max-width: 972px) {
+    .tasketestbtn{
+        position: relative;
+        left: -50px;
+        width: 83px;
+        height: 40px;
+    }
+    .navbarbtns span{
+        font-size: 10px;
+        width: 100px;
+    }
+}
+@media (min-width:900px) and (max-width: 917px) {
+    .tasketestbtn{
+        position: relative;
+        left: -70px;
+    }
+}
+
+
+
+.navbarbtns span{
+    margin-left: 0px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+    color: #464646;
+}
+.activeNavbarBtn span{
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    color: #4484FF;
+}
+
+.rightnav{
+    position: relative;
+    left: 100%;
+}
+
+.tasketestbtn{
+    border-style: solid;
+    border-radius: 15px;
+    width: 103px;
+    height: 46px;
+    border-color: #4484FF;
+    background-color: #4484FF;
+    color: white;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.languagebtn span{
+    margin-right: 25px;
+    font-size: 17px;
+}
+
+
+.profiledropdown{
+    margin-top: -10px;
+}
+
+.profiledropdown>a::after {
+    color: #111B2B;
+}
+
+.profileimg{
+    height:40px;
+}

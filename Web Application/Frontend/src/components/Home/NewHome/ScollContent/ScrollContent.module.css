@@ -1,0 +1,351 @@
+.ScrollContent{
+    margin-left: 8.5%;
+}
+
+@media (max-width:415px) {
+    .ScrollContent{
+        margin-left:2%;
+    }
+}
+.contentArticle{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+.contentArticle h1{
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #4484FF;
+}
+.contentArticle p{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    color: #494949;
+}
+
+.articlebox{
+    width: 100% ;
+    height: 100px ;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.aboutInflow{
+    margin-bottom: 80px;
+}
+
+.aboutInflow h1{
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    color: #4484FF;
+}
+.aboutInflowcontent{
+    margin-top: 50px;
+}
+.aboutInflowcontent h2{
+    margin-top: 50px;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4484FF;
+    width: 90%;
+}
+.aboutInflowcontentscrolled h2{
+    animation: slideUp 1.5s ease-in-out;
+}
+.aboutInflowcontentscrolled p{
+    animation: slideUp 1.5s ease-in-out;
+}
+.aboutInflowcontentscrolled img{
+    animation: fade-in 1.5s ease-in-out;
+}
+.aboutInflowcontent p{
+    margin-top: 20px;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #494949;
+    width: 96%;
+}
+.aboutInflowcontent2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutInflowcontent2 h2{
+    margin-left: 90px;
+    width: 50%;
+}
+.aboutInflowcontent2 p{
+    margin-left: 90px;
+    width: 68%;
+}
+
+.aboutInflowcontentImage img{
+    margin-left: 150px;
+    border-radius: 20px;
+    width: 550px;
+    height:340px;
+}
+.aboutInflowcontent2 img{
+    border-radius: 20px;
+    width: 570px;
+    height:340px;
+}
+.aboutInflowcontent2 Button{
+    margin-left: 90px;
+}
+
+.aboutInflowcontentBtn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+    color: white;
+    background-color: #4484FF;
+    border: #4484FF;
+    border-radius: 20px;
+    width: 198px;
+    height: 60px;
+    transition: all 0.5s;
+}
+.aboutInflowcontentBtn:hover{
+    transform:scale(1.1);
+}
+
+@media (max-width:1200px) {
+    .aboutInflowcontentImage img{
+        width: 65%;
+    }
+    .aboutInflowcontent2 img{
+        width: 95%;
+    }
+}
+@media (max-width:899px) {
+    .aboutInflowcontent h2{
+        margin-left: 20%;
+        width: 68%;
+    }
+    .aboutInflowcontent p{
+        margin-left: 20%;
+        width: 68%;
+    }
+    .aboutInflowcontentBtn{
+        margin-left: 40%;
+    }
+    .aboutInflowcontent2 Button{
+        margin-left: 40%;
+    }
+    .aboutInflowcontent2 img{
+        width: 65%;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width:600px) {
+    .aboutInflowcontent{
+        position: relative;
+        left:-16%;
+    }
+}
+@media (max-width:480px){
+    .aboutInflowcontentImage img{
+        margin-left: 90px;
+    }
+    .aboutInflowcontent2 img{
+        margin-left: 90px;
+    }
+}
+@media (max-width:380px){
+    .aboutInflowcontentBtn{
+        margin-left: 30%;
+    }
+}
+
+.whyInflow{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.whyInflow h1{
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #4484FF;
+}
+.whyInflowContent{
+    margin-top: 10px;
+    width: 90%;
+}
+.whyInflowContent h2{
+    margin-top: 30px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4484FF;
+}
+.whyInflowContent p{
+    width: 86%;
+    margin-top: 15px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #494949;
+}
+.whyInflowContentscrolled{
+    animation: fadeInAndSlideleft 1.5s ease-out;
+}
+.whyInflowContent2{
+    margin-top: 10px;
+    width: 90%;
+}
+.whyInflowContent2 h2{
+    margin-top: 30px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4484FF;
+}
+.whyInflowContent2 p{
+    width: 86%;
+    margin-top: 15px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #494949;
+
+}
+.whyInflowContent2scrolled{
+    animation: fadeInAndSlidetop 1.5s ease-out;
+}
+.whyInflowContent3{
+    margin-top: 10px;
+    width: 90%;
+}
+.whyInflowContent3 h2{
+    margin-top: 30px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4484FF;
+}
+.whyInflowContent3 p{
+    width: 86%;
+    margin-top: 15px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #494949;
+}
+.whyInflowContent3scrolled{
+    animation: fadeInAndSlideright 1.5s ease-out;
+}
+.getStart h1{
+    text-align: center;
+    color: #4484FF;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+.getStart p{
+    text-align: center;
+    color: #343434;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+.getStartBtn{
+    background-color: transparent;
+    border: 2px solid #4484FF;
+    border-radius: 20px;
+    height: 70px;
+    width: 260px;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4484FF;
+    transition: all 1s;
+    margin-bottom: 5rem;
+}
+.getStartBtn:hover{
+    background-color: #4484FF;
+    color: white;
+}
+@keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+@keyframes fadeInAndSlideleft {
+    from {
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeInAndSlidetop {
+    from {
+        transform: translateY(-150%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}@keyframes fadeInAndSlideright {
+    from {
+        transform: translateX(200%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

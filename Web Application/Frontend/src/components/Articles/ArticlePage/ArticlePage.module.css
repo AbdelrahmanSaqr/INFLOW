@@ -1,0 +1,94 @@
+.searchtext{
+border-style: solid;
+border-radius: 30px;
+
+}
+.article h1{
+  width: 100%;
+}
+@media (max-width:700px) {
+  .article{
+    margin-left: -40px;
+  }
+  .article h1{
+    width: 80%;
+    font-size: 30px;
+  }
+}
+@media (max-width:400px) {
+  .article{
+    margin-left: -80px;
+  }
+  .article h1{
+    font-size: 25px;
+  }
+  .article p{
+    font-size: 15px;
+    width: 80%;
+  }
+}
+.buttonLabel{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 50px;
+  color: #343434;
+}
+
+.recommendation h6{
+
+font-family: "inter";
+font-size: 18px;
+font-weight: 600;
+
+}
+
+.btnrecommend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px;
+
+
+
+}
+.buttonLabel {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Intern";
+  color: gray;
+  line-height: 1;
+
+  letter-spacing: '0.1em';
+  
+  /* [theme.breakpoints.up('md')]: {
+      fontSize: '0.9rem',
+
+  }, */
+}
+
+.griddesign{
+  padding-left: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7) ;
+  color: white;
+  
+}
+
+.griddesign h4{
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+}
+.griddesign p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+  }

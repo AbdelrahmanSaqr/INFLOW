@@ -1,0 +1,56 @@
+.ourvisionmission{
+    margin-top: 11%;
+    margin-left: 7%;
+    margin-bottom: 40px;
+}
+
+.ourvisionmission h1{
+    font-family: 'Dosis' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 20%;
+}
+
+.ourvisionmission svg {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.ourvisionmission p{
+    margin-top: 20px;
+    margin-left: 15%;
+    font-family: 'Dosis' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+/* .ourvisionmission button{
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50px;
+    width: 270px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+}
+
+.ourvisionmission button:hover{
+    background-color: white;
+    color: #4484FF;
+} */

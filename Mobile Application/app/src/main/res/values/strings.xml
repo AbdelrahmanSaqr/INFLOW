@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Grad,Project2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome </string>
+    <string name="manage_your_work">your way to manage your \n work effectively</string>
+    <string name="login">Login</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">password</string>
+    <string name="good_morning">Good Morning Doctor ,</string>
+    <string name="eman">Eman!</string>
+    <string name="mostafa_badran">Mostafa Badran</string>
+    <string name="finished">Finished</string>
+    <string name="_11_00_pm_12_00pm">11:00 PM-12:00PM</string>
+    <string name="meeting2">Meeting2</string>
+    <string name="meeting_today">Meeting today</string>
+    <string name="add_new_meeting">Add New Meeting</string>
+    <string name="client_name">Client Name</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="status">Status</string>
+    <string name="single">Single</string>
+    <string name="married">Married</string>
+    <string name="divorced">Divorced</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone">Phone</string>
+    <string name="date">Date</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="meeting_title">Meeting title</string>
+    <string name="title">Title</string>
+    <string name="remember_me">Remember me?</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="_9_july_2000">9 July, 2000</string>
+    <string name="birth_city">Birth City</string>
+    <string name="alexandria">Alexandria</string>
+    <string name="current_city">Current City</string>
+    <string name="cairo">Cairo</string>
+    <string name="Phone">Phone</string>
+    <string name="_0123456789">0123456789</string>
+    <string name="mostafa_gmail_com">mostafa@gmail.com</string>
+    <string name="children_number">Children Number</string>
+    <string name="_3">3</string>
+    <string name="first_child_age">First Child age</string>
+    <string name="_5">5</string>
+    <string name="scound_child_age">Scound Child age</string>
+    <string name="_10">10</string>
+    <string name="third_child_age">Third Child age</string>
+    <string name="_15">15</string>
+    <string name="backbutton">backButton</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="mostafa_alaa_gaber_tahoon">Mostafa Alaa gaber tahoon</string>
+    <string name="info">info</string>
+    <string name="a_doctor_is_the_most_modest_and_respected_professional_in_society_his_job_entails_determining_the_patient_s_illness_and_administering_suitable_treatment_aside_from_that_the_doctor_has_various_responsibilities_to_do_a_doctor_s_attitude_should_be_highly_courteous">A doctor is the most modest and respected professional in society. His job entails determining the patient\'s illness and administering suitable treatment. Aside from that, the doctor has various responsibilities to do. A doctor\'s attitude should be highly courteous.</string>
+    <string name="bio">bio</string>
+    <string name="dr_alan_stern_was_born_in_dubois_pennsylvania_and_is_a_graduate_of_villanova_university_he_obtained_his_medical_degree_at_thomas_jefferson_university_in_philadelphia_his_residency_was_at_thomas_jefferson_and_its_affiliated_wills_eye_hospital_and_he_completed_his_training_with_fellowships_at_the_university_of_connecticut_in_cataract_and_corneal_surgery">Dr. Alan Stern was born in DuBois, Pennsylvania and is a graduate of Villanova University. He obtained his medical degree at Thomas Jefferson University in Philadelphia. His residency was at Thomas Jefferson and its affiliated Wills Eye Hospital, and he completed his training with fellowships at the University of Connecticut in cataract and corneal surgery</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="age">Age</string>
+    <string name="original_city">Original City</string>
+    <array name="patientName">"Eman ahmed",
+        "slwa ali",
+        "so3ad mahmoud",
+        "3aber slama",
+        "om slwa alaa"
+    </array>
+    <array name="meetingNum">"Meeting 1",
+        "Meeting 2",
+        "Meeting 3",
+        "Meeting 4",
+        "Meeting 5",
+    </array>
+    <array name="meetingState">"Finished",
+        "Finished",
+        "Finished",
+        "Finished",
+        "Finished",
+    </array>
+    <array name="meetingDate">"11:00 pm-12:00 pm",
+        "12:00 pm-1:00 pm",
+        "2:00 pm-3:00 pm",
+        "4:00 pm-5:00 pm",
+        "6:00 pm-7:00 pm",
+    </array>
+
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ui.fragments.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:background="@drawable/rounded_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/doctorProfile_ShapeableImage"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/circular"
+
+            app:srcCompat="@drawable/doctor" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_txtView"
+                style="@style/headingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/name_editText"
+                style="@style/edit_Text_meetingDetails"
+                android:layout_marginStart="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:autofillHints=""
+                android:background="@drawable/rounded_gray_edittext"
+                android:backgroundTint="@color/white"
+                android:enabled="false"
+                android:hint=""
+                android:inputType="textPersonName"
+                android:text="@string/mostafa_alaa_gaber_tahoon"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/phone_txtView"
+                style="@style/headingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/phone" />
+
+            <EditText
+                android:id="@+id/phone_editText"
+                style="@style/edit_Text_meetingDetails"
+                android:layout_marginStart="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:autofillHints=""
+                android:background="@drawable/rounded_gray_edittext"
+                android:backgroundTint="@color/white"
+                android:enabled="false"
+                android:hint=""
+                android:inputType="phone"
+                android:text="@string/_0123456789"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/info_txtView"
+                style="@style/headingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/info" />
+
+            <EditText
+
+                android:id="@+id/info_editText"
+
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/roundcorners"
+                android:enabled="false"
+                android:fontFamily="@font/arial"
+                android:gravity="top"
+                android:paddingStart="@dimen/_10ssp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_15sdp"
+                android:text="@string/a_doctor_is_the_most_modest_and_respected_professional_in_society_his_job_entails_determining_the_patient_s_illness_and_administering_suitable_treatment_aside_from_that_the_doctor_has_various_responsibilities_to_do_a_doctor_s_attitude_should_be_highly_courteous"
+                android:textColor="@color/blue_black"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <TextView
+                android:id="@+id/bio_txtView"
+                style="@style/headingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/bio" />
+
+            <EditText
+                android:id="@+id/bio_editText"
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_110sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/roundcorners"
+                android:enabled="false"
+                android:fontFamily="@font/arial"
+                android:gravity="top"
+                android:paddingStart="@dimen/_10ssp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_15sdp"
+                android:text="@string/dr_alan_stern_was_born_in_dubois_pennsylvania_and_is_a_graduate_of_villanova_university_he_obtained_his_medical_degree_at_thomas_jefferson_university_in_philadelphia_his_residency_was_at_thomas_jefferson_and_its_affiliated_wills_eye_hospital_and_he_completed_his_training_with_fellowships_at_the_university_of_connecticut_in_cataract_and_corneal_surgery"
+                android:textColor="@color/blue_black"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

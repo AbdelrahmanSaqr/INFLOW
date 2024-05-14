@@ -1,0 +1,128 @@
+.questionvedio{
+    margin-bottom: 150px;
+}
+
+.questionvedio h1{
+    color: #4484FF;
+    font-family: 'Inter' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.questionvedio p{
+    color: #343434;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.questionvediosvg{
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.questionvedio img{
+    margin-top: 130px;
+    margin-left: 30px;
+    width : 390px;
+    height: 310px;
+}
+
+@media (max-width:1210px) {
+    .questionvedio img {
+        width : 300px;
+        height: 270px;
+    }
+}
+@media (max-width:1026px) {
+    .questionvedio img {
+        width : 250px;
+        height: 220px;
+    }
+}
+@media (max-width:924px) {
+    .questionvedio img {
+        width : 200px;
+        height: 180px;
+    }
+}
+@media (max-width:899px) {
+    .questionvedio img {
+        width : 390px;
+        height: 310px;
+    }
+}
+/* @media (max-width:7080px) {
+    .questionvedio img {
+        width : 180px;
+        height: 160px;
+    }
+}
+@media (max-width:7060px) {
+    .questionvedio img {
+        width : 160px;
+        height: 140px;
+    }
+} */
+.desktop svg{
+    margin-top: 150px;
+    width : 80px;
+    height: 160px;
+    margin-left: 160px;
+}
+
+.questionvedioscrolled{
+    animation: fadeInAndSlideleft 2s ease-out;
+}
+@keyframes fadeInAndSlideleft {
+    from {
+        transform: translateX(-280%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.youtubeVideo iframe{
+    border-radius: 15px;
+    position: absolute;
+    top:34%;
+    left:12%;
+    width: 83% ;
+    height: 38% ; 
+}
+
+@media (max-width:1109px){
+    .youtubeVideo iframe{
+        top:36%;
+        left:13%;
+        height: 36% ; 
+    }
+}
+@media (max-width:1026px){
+    .youtubeVideo iframe{
+        top:40.5%;
+        left:14%;
+        height: 34% ; 
+    }
+}
+@media (max-width:924px){
+    .youtubeVideo iframe{
+        top:45%;
+        left:17.2%;
+        height: 31% ; 
+        width: 79% ;
+    }
+}
+@media (max-width:899px){
+    .youtubeVideo iframe{
+        top:34%;
+        left:12%;
+        width: 83% ;
+        height: 38% ; 
+    }
+}

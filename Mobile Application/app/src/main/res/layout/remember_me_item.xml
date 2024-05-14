@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:cardUseCompatPadding="true"
+    android:backgroundTint="@color/gray"
+    android:background="@drawable/roundcorners"
+
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/roundcorners"
+        android:backgroundTint="@color/gray"
+        >
+
+
+        <TextView
+            android:id="@+id/date1_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/bevietnamproextrabold"
+            android:text="02/25/2023"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/meeting_notes_expandebletxtView"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_txtview"
+            android:fontFamily="@font/bevietnamprobold"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingTop="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:paddingBottom="@dimen/_20sdp"
+            android:text="-Therapist’s observations, hypotheses, feelings, or   thoughts about the session \n -Do not include information or data on a patient’s medical history, treatment plan, or diagnoses \n -Document insights on patient and therapy Inform treatment play"
+            android:textColor="@color/white"
+            app:collapsedLines="2"
+            app:ellipsizeTextColor="@color/littleBlue"
+            app:isExpanded="false"
+            android:backgroundTint="@color/blue_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/date1_txt"
+            app:readLessText="See Less"
+            app:readMoreText="See more"
+            android:layout_marginLeft="@dimen/_10sdp"
+            />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

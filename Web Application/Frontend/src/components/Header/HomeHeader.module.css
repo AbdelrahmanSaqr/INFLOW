@@ -1,0 +1,282 @@
+.header{
+    /* background-color: gradient( rgba(255, 255, 255, 0.5) 100%, rgba(255, 255, 255, 0) 100%); */
+    /* background: white; */
+    background-color: rgba(255, 255, 255, 0.85);
+    /* filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.25)); */
+    /* backdrop-filter: blur(20px); */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+/* .headerscrolled{
+    background-color: white;
+} */
+
+.logo{
+    border-radius: 12px;
+    border: none;
+    background-color: transparent;
+    margin-left: 5%;
+}
+
+.logo h5{
+    color: #636363;
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+    display: inline-block;
+    font-family: 'Combo' ,'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+@media (max-width: 899px) {
+    .logo h5{
+        top: 2px;
+    }
+}
+
+/* .logoscrolled h5{
+    color: #636363;
+    font-weight: 400;
+    margin-left: 8px;
+} */
+.logo svg{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+/* @media (min-width: 900px) and (max-width: 979px) {
+    .logo{
+        margin-left: -13px;
+        height: 30px;
+        width: 80px;
+    }
+} */
+
+.navbarbtn{
+    background-color: none;
+    border-style: solid;
+    border-color: white;
+}
+
+
+.navbarbtns {
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+@media (max-width:1383px) {
+    .navbarbtns{
+        margin-left: 45px;
+    }
+}
+@media (max-width:1353px) {
+    .navbarbtns{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:1283px) {
+    .navbarbtns{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 1216px) {
+    .navbarbtns{
+        margin-left: 15px;
+    }
+}
+@media (max-width: 1116px) {
+    .navbarbtns{
+        margin-left: 1px;
+    }
+}
+@media (max-width: 1016px) {
+    .navbarbtns{
+        margin-left: -1px;
+    }
+}
+@media (max-width: 979px) {
+    .navbarbtns{
+        margin-left: -5px;
+    }
+}
+
+@media (min-width:900px) and (max-width: 979px) {
+    .navbarbtns{
+        margin-left: 0px;
+    }
+    /* .logo h5{
+        display: inline-block;
+        font-size: 23px;
+        font-weight: 600;
+    } */
+    /* .logo svg{
+        height: 27px;
+        width: 23px;
+        display: inline-block;
+    } */
+}
+
+
+
+.navbarbtns span{
+    margin-left: 0px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    color: #636363;
+}
+/* .spanscrolled span {
+    color: #636363;
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+} */
+.navbarbtns span:hover {
+    color: #4484FF; /* text color when background matches text color */
+}
+.activeNavbarBtn span{
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    color: #4484FF;
+}
+/* .navbarbtns span:not(:hover) {
+    set a minimum contrast ratio for the text
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    mix-blend-mode: difference;
+  } */
+/* .home{
+    font-weight: 500;
+    color :#464646;
+    text-align: center;
+    font-family: 'Inter' , sans-serif;
+    font-size: 15px;
+} */
+
+.honecontactusfindcoachimg{
+    margin-left: 10px;
+    margin-top: -5px;
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+    color: #464646;
+}
+
+/* .contactus{
+    font-weight: 500;
+    color: #464646;
+    text-align: center;
+    font-family: 'Inter' , sans-serif;
+    font-size: 15px;
+}
+
+.findcoach{
+    font-weight: 500;
+    color :#464646;
+    text-align: center;
+    font-family: 'Inter' , sans-serif;
+    font-size: 13px; 
+}
+
+.howitworks{
+    margin-left: 50px;
+    display: inline-block;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    color: #464646;
+} */
+
+.tasketestbtn{
+    border-style: solid;
+    border-radius: 15px;
+    width: 103px;
+    height: 46px;
+    border-color: #4484FF;
+    background-color: #4484FF;
+    color: white;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    transition: background-color 0.5s ease-out 0.1s, color 0.5s ease-out 0.1s;
+    animation-name: fade-in;
+    animation-duration: 4s;
+    text-shadow: 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000;
+}
+/* .btnscrolled{
+    border-color: #4484FF;
+    background-color: #4484FF;
+    color: white;
+} */
+
+.tasketestbtn:hover{
+    background-color: white;
+    color: #4484FF;
+}
+
+.rightnavbar{
+    display: inline-block;
+    margin-left: 11px;
+}
+.languagebtn{
+    border: white;
+    margin-left: 50px;
+}
+.languagebtn span{
+    margin-left: 5px;
+}
+
+.notifications{
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+    border-color: #B1B1B1;
+    border-radius: 50%;
+    width: 43px;
+    height: 40px;
+}
+
+.badge{
+    position: relative;
+    padding: 1px 3px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+.profiledropdown{
+    margin-top: -10px;
+}
+
+.profiledropdown>a::after {
+    color: #111B2B;
+}
+
+.profileimg{
+    height:40px;
+}
