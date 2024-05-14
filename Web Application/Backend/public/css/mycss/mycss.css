@@ -1,0 +1,30 @@
+
+.main-color{
+    color: #111B2B;
+}
+.main-back-color{
+    background-color: #111B2B;
+    color: white;
+}
+.btn-submet:hover{
+    background-color: #111B2B;
+    color: white;
+}
+.btn-submet{
+    color: #111B2B;
+    border-color: #111B2B;
+}
+
+.my_active{
+    background-color: #111B2B;
+    color: white;
+}
+.my-nav-color{
+    background-color: #DCDCDC;
+    color: #111B2B;
+}
+
+
+
+
+
