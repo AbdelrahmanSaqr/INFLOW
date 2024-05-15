@@ -62,6 +62,6 @@ To get started with INFLOW, follow these steps:
 
 ## Support
 
-For support and inquiries, please contact our team at support@inflow.com.
+For support and inquiries, please contact our team.
 
 Thank you for choosing INFLOW! We are committed to helping you understand and improve your emotional health.
